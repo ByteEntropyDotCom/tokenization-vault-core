@@ -22,3 +22,35 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+
+# --- Java / Maven ---
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# --- Secrets & Environment ---
+.env
+.env.local
+*.pem
+*.key
+VAULT_MASTER_KEY
+
+# --- IDE Specific ---
+.idea/
+*.iml
+.vscode/
+.project
+.classpath
+.settings/
+*.swp
+.DS_Store
+
+# --- Logs ---
+logs/
+*.log
+
+# --- Docker ---
+docker-compose.override.yml
