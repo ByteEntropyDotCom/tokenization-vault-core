@@ -1,0 +1,22 @@
+# Ignore the entire Git history
+.git
+.gitignore
+
+# Ignore build artifacts (we build inside the Dockerfile)
+target/
+
+# Ignore documentation and tests (not needed for production runtime)
+src/test/
+README.md
+LICENSE
+.github/
+
+# Ignore IDE and local config
+.idea/
+.vscode/
+.env
+*.iml
+
+# Ignore logs
+logs/
+*.log
